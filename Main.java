@@ -7,7 +7,6 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int opcao;
         int escolha;
         do {
             System.out.println("1- Criar um produto\n2- Alterar dados de um produto\n3- Excluir um produto\n4- Listar todos os produtos\n5- Sair");
