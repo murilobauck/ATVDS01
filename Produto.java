@@ -9,7 +9,7 @@ public class Produto {
 
     public Produto(int id, String nome, String preco, int quantidade, String descricao) {
         this.id = id;
-        this.setNome(nome);
+        this.nome = nome.toUpperCase();
         this.preco = preco;
         this.quantidade = quantidade;
         this.descricao = descricao;
