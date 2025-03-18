@@ -24,11 +24,11 @@ public class Produto {
     }
 
     public String getNome() {
-        return nome.toUpperCase();
+        return nome;
     }
 
     public void setNome(String nome) {
-        this.nome = nome;
+        this.nome = nome.toUpperCase();
     }
 
     public String getPreco() {
