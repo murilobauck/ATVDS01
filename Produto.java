@@ -9,7 +9,7 @@ public class Produto {
 
     public Produto(int id, String nome, String preco, int quantidade, String descricao) {
         this.id = id;
-        this.nome = nome;
+        this.setNome(nome);
         this.preco = preco;
         this.quantidade = quantidade;
         this.descricao = descricao;
@@ -61,10 +61,5 @@ public class Produto {
         System.out.println("Preço: " + preco);
         System.out.println("Quantidade: " + quantidade);
         System.out.println("Descrição: " + descricao);
-    }
-
-    public void exibirIdpreco() {
-        System.out.println("ID: " + id);
-        System.out.println("Preço: " + preco);
     }
 }

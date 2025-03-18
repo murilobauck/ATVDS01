@@ -42,7 +42,6 @@ public class Main {
                 String nome = scanner.nextLine();
                 System.out.print("Preço: ");
                 String preco = scanner.nextLine();
-                //scanner.nextLine();
                 System.out.print("Quantidade: ");
                 int quantidade = scanner.nextInt();
                 scanner.nextLine();
@@ -65,7 +64,6 @@ public class Main {
                         produto.setNome(scanner.nextLine());
                         System.out.print("Novo preço: ");
                         produto.setPreco(scanner.nextLine());
-                        scanner.nextLine();
                         System.out.print("Nova quantidade: ");
                         produto.setQuantidade(scanner.nextInt());
                         scanner.nextLine();
