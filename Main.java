@@ -9,36 +9,9 @@ public class Main {
     public static void main(String[] args) {
         int escolha;
         do {
-            System.out.println("1- Criar um produto\n2- Alterar dados de um produto\n3- Excluir um produto\n4- Listar todos os produtos\n5- Sair");
-            System.out.print("Escolha uma opção: ");
-            escolha = scanner.nextInt();
-            switch (escolha) {
-                case 1:
-                    criarProduto();
-                    break;
-                case 2:
-                    alterarProduto();
-                    break;
-                case 3:
-                    excluirProduto();
-                    break;
-                case 4:
-                    listarProdutos();
-                    break;
-                case 5:
-                    System.out.println("Saindo...");
-                    break;
-                default:
-                    System.out.println("Opção inválida");
-                    break;
-            }
-        } while (escolha != 5);
-        ArrayList<Produto> produtos = new ArrayList<>();
-        Scanner menu = new Scanner(System.in);
-        do {
             System.out.println(" 1- Criar um produto\n 2- Alterar dados de um produto\n 3- Excluir um produto\n 4- Listar todos os produtos\n 5- Sair");
             System.out.print("Escolha uma opção: ");
-
+            escolha = scanner.nextInt();
             switch (escolha) {
                 case 1:
                     criarProduto();
