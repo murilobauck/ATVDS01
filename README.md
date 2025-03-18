@@ -47,3 +47,11 @@ Siga os passos abaixo para executar o projeto em sua máquina:
     ```bash
     java Main
     ```
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](https://github.com/murilobauck/ATVDS01/LICENSE).
+
+Feito por Murilo Bauck👋🏽 [Entre em contato!](https://www.linkedin.com/in/murilo-bauck-)
