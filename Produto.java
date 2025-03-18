@@ -1,13 +1,13 @@
 public class Produto {
     private int id;
     private String nome;
-    private double preco;
+    private String preco;
     private int quantidade;
     private String descricao;
 
     public Produto() {}
 
-    public Produto(int id, String nome, double preco, int quantidade, String descricao) {
+    public Produto(int id, String nome, String preco, int quantidade, String descricao) {
         this.id = id;
         this.nome = nome;
         this.preco = preco;
@@ -24,18 +24,18 @@ public class Produto {
     }
 
     public String getNome() {
-        return nome;
+        return nome.toUpperCase();
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public double getPreco() {
+    public String getPreco() {
         return preco;
     }
 
-    public void setPreco(double preco) {
+    public void setPreco(String preco) {
         this.preco = preco;
     }
 
@@ -61,5 +61,10 @@ public class Produto {
         System.out.println("Preço: " + preco);
         System.out.println("Quantidade: " + quantidade);
         System.out.println("Descrição: " + descricao);
+    }
+
+    public void exibirIdpreco() {
+        System.out.println("ID: " + id);
+        System.out.println("Preço: " + preco);
     }
 }

@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
     private static ArrayList<Produto> produtos = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
 
@@ -42,7 +41,7 @@ public class Main {
                 System.out.print("Nome: ");
                 String nome = scanner.nextLine();
                 System.out.print("Preço: ");
-                double preco = scanner.nextDouble();
+                String preco = scanner.nextLine();
                 scanner.nextLine();
                 System.out.print("Quantidade: ");
                 int quantidade = scanner.nextInt();
@@ -65,7 +64,7 @@ public class Main {
                         System.out.print("Novo nome: ");
                         produto.setNome(scanner.nextLine());
                         System.out.print("Novo preço: ");
-                        produto.setPreco(scanner.nextDouble());
+                        produto.setPreco(scanner.nextLine());
                         scanner.nextLine();
                         System.out.print("Nova quantidade: ");
                         produto.setQuantidade(scanner.nextInt());
