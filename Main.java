@@ -61,7 +61,7 @@ public class Main {
                 for (Produto produto : produtos) {
                     if (produto.getId() == id) {
                         System.out.print("Novo nome: ");
-                        String nome = scanner.nextLine();
+                        produto.setNome(scanner.nextLine());
                         System.out.print("Novo preço: ");
                         produto.setPreco(scanner.nextLine());
                         System.out.print("Nova quantidade: ");
