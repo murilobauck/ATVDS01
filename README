@@ -1,29 +1,45 @@
 # Projeto ATVDS01
 
-Este repositório contém o código desenvolvido para o projeto ATVDS01. Abaixo está uma explicação detalhada sobre o conteúdo do código e sua funcionalidade.
+Este repositório contém o código desenvolvido para o projeto **ATVDS01**, uma aplicação de console em Java para gerenciamento de produtos. Abaixo, você encontrará uma explicação detalhada sobre o projeto, sua estrutura, funcionalidades e instruções para execução.
 
-## Descrição do Projeto
+---
 
-O projeto ATVDS01 foi desenvolvido com o objetivo de tratar produtos. Ele implementa funcionalidades como criar, excluir e listar prdutos além de poder alterar dados de um produto.
+## 📋 Descrição do Projeto
 
-## Estrutura do Código
+O projeto **ATVDS01** foi desenvolvido com o objetivo de gerenciar produtos de forma simples e eficiente. Ele permite ao usuário realizar operações básicas de CRUD (Create, Read, Update, Delete) sobre uma lista de produtos, incluindo:
 
-O código está organizado da seguinte forma:
+- **Criar** novos produtos.
+- **Listar** todos os produtos cadastrados.
+- **Alterar** dados de produtos existentes.
+- **Excluir** produtos da lista.
 
-- **[Main].java**: Respnsável pelo gerenciamento de produtos, interação com o usuário, persistência em memóriae validações básicas
-- **[Produto].java**: Responsável pela modelagem de dados, encapsulamento e formatação de dados.
+---
 
-## Tecnologias Utilizadas
+## 🛠️ Estrutura do Código
 
-- Linguagem de Programação: Java
-- Bibliotecas/Frameworks: java.util
-## Como Executar o Projeto
+O código está organizado em dois arquivos principais:
+
+- **[Main.java]**: Responsável pela lógica principal do programa, incluindo a interação com o usuário, gerenciamento da lista de produtos e validações básicas.
+- **[Produto.java]**: Responsável pela modelagem dos dados do produto, encapsulamento de atributos (ID, nome, preço, quantidade, descrição) e formatação das informações.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Linguagem de Programação**: Java
+- **Bibliotecas/Frameworks**: `java.util` (para estruturas de dados como `ArrayList` e `Scanner`).
+
+---
+
+## 📂 Como Executar o Projeto
+
+Siga os passos abaixo para executar o projeto em sua máquina:
 
 1. Clone este repositório:
-    ```bash
-    git clone https://github.com/murilobauck/ATVDS01.git
-    ```
-2. Navegue até o diretório do projeto:
+   ```bash
+   git clone https://github.com/murilobauck/ATVDS01.git
+
+ 2. Navegue até o diretório do projeto:
     ```bash
     cd ATVDS01
     ```
@@ -31,13 +47,3 @@ O código está organizado da seguinte forma:
     ```bash
     java Main
     ```
-
-## Funcionalidades
-
-- **Criar Produto**: Solicita ao usuário os detalhes do produto (ID, nome, preço, quantidade e descrição) e cria um novo objeto Produto e o adiciona à lista de produtos
-- **Alterar Produto**: Solicita ao usuário o ID do produto que deseja alterar e procura o produto na lista e, se encontrado, permite ao usuário alterar seus detalhes.
-- **Excluir Produto**: Solicita ao usuário o ID do produto que deseja excluir e procura o produto na lista e, se encontrado, o remove da lista.
--**Listar Produtos**: Lista todos os produtos cadastrados, exibindo seus detalhes e se a lista estiver vazia, informa ao usuário que não há produtos cadastrados.
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
